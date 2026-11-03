@@ -10,7 +10,7 @@ pipeline {
     
     stage('Run')
     steps{
-      sh 'javac Helloworld '
+      sh 'java Helloworld '
     }
   }
 }
